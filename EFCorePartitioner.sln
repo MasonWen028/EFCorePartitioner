@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCorePartitioner", "EFCorePartitioner.csproj", "{1A108568-C1F9-4412-83C8-5332A386B475}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A108568-C1F9-4412-83C8-5332A386B475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A108568-C1F9-4412-83C8-5332A386B475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A108568-C1F9-4412-83C8-5332A386B475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A108568-C1F9-4412-83C8-5332A386B475}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BF21E71-DD35-42FA-A5AC-BA40925AF88D}
+	EndGlobalSection
+EndGlobal
