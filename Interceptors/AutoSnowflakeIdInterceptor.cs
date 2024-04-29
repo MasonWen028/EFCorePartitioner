@@ -1,4 +1,5 @@
-﻿using EFCorePartitioner.Utils;
+﻿using EFCorePartitioner.Attributes;
+using EFCorePartitioner.Utils;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using System;
@@ -8,7 +9,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EFCorePartitioner.Attributes
+namespace EFCorePartitioner.Interceptors
 {
     /// <summary>
     /// An EF Core SaveChangesInterceptor that automatically assigns Snowflake IDs to entities.

@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace EFCorePartitioner.Enums
 {
-    public enum PartitionStrategy
+    public enum TimePartitionUnit
     {
         None,
-        TimeBased,
-        QuantityBased
+        Daily,
+        Weekly,
+        Monthly
     }
 }
